@@ -5,3 +5,7 @@ build/
 *.egg-info/
 logs/
 *.csv
+.env
+.venv
+env/
+venv/
