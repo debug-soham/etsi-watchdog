@@ -1,11 +1,9 @@
 # tests/test_isolation_forest.py
-import sys
-import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from models.isolation_forest import IsolationForestModel
+import pytest
 import pandas as pd
 from sklearn.datasets import make_blobs
+from etsi.watchdog.models.isolation_forest import IsolationForestModel
 
 def test_isolation_forest_basic():
     X, _ = make_blobs(n_samples=100, centers=1, cluster_std=0.6, random_state=0)

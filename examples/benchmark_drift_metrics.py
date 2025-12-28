@@ -1,5 +1,7 @@
+# examples/benchmark_drift_metrics.py
+
 """
-Benchmarking Suite for Drift Metrics (v2.2)
+Benchmarking Suite for Drift Metrics (v3.0.0)
 
 This module generates synthetic datasets with different drift scenarios and benchmarks available drift metrics (KS, PSI).
 """

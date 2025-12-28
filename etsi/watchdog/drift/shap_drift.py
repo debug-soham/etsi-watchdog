@@ -1,7 +1,9 @@
 # etsi/watchdog/drift/shap_drift.py
 
+import warnings
 from .base import DriftResult
 
-
 def shap_drift(*args, **kwargs) -> DriftResult:
-    raise NotImplementedError(" [etsi-watchdog] SHAP-based drift detection coming in v0.4.")
+    # v3 Implementation Placeholder
+    warnings.warn("[etsi-watchdog] SHAP drift is currently experimental and returns None.")
+    return None
